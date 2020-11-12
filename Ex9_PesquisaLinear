@@ -1,0 +1,28 @@
+Enunciado
+
+9. Escreva uma função pesquisa_linear que tem como argumento de entrada: 
+um vetor de inteiros a ser pesquisado, o tamanho do vetor, e uma chave (um valor inteiro) a ser procurado.  
+A função retorna um inteiro: o índice do elemento do vetor (se a chave for achada) ou -1 caso contrário.
+Além disso, mostre um exemplo de uso desta função em um programa com a chamada da função criada
+--------------------------------------
+Resposta (pseudo-codigo):
+
+def pesquisa_linear (vetor, size, key):
+
+k=0;
+
+while (k<size)
+  if (vetor(k)==key)
+    y=k;
+  
+  else
+    k=k+1;
+    y=-1;
+    
+  end
+  
+  k=k+1;
+  
+end
+
+return y

@@ -1,0 +1,46 @@
+Enunciado
+
+7. Faça um programa que seja capaz de calcular um termo da série de Fibonacci informado pelo usuário.
+Por exemplo, o programa deve poder calcular qual o vigésimo termo desta série;
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, …
+
+----------------------------
+Resposta (Pseudo-codigo)
+
+%Perguntando ao usuario qual o termo cujo valor ele deseja obter
+input('Qual o termo da sequencia que se deseja saber?') 
+
+%Supondo que a resposta seja 20, se referindo ao vigésimo termo.
+termo=20;
+
+%Criando string para armazenar os elementos da sequencia
+seq = (1,:)
+
+%Construindo o vetor com os elementos da sequencia, até que o elemento requisitado seja calculado
+k=1;
+
+while (k<termo)
+
+  if (k=1)
+    seq(1) = 0;
+    
+  else if (k=2)
+    seq(2) = 1;
+    
+  else
+    seq(k) = seq(k-1) + seq(k-2);
+    
+  end
+  
+  valor_k = seq(k);
+  k=k+1;
+
+end
+
+%Mostrando o valor do termo requisitado
+display('O termo procurado é "valor_k" ')
+  
+  
+
+
+

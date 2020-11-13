@@ -1,0 +1,12 @@
+Enunciado
+
+10. Faça um programa que inverta os caracteres de uma string sem que um segundo buffer seja alocado.
+O programa não poderá utilizar funcoues pré-existentes da linguagem (ex. funções na STL do C++ como swap(), reverse(), etc),
+além disso não deverá simplesmente imprimir a cadeia de caracteres em ordem inversa, mas terá que fazer a manipulação direta sobre a cadeia de caracteres.
+-------------------------------------
+Resposta (raciocínio)
+
+Seria necessário trabalhar com os indices da string. 
+Como ilustracao do raciocínio, pode-se mencionar que o segundo caractere do fim para o comeco seria alocado no segundo indice do inicio para o fim.
+Devido a restricao no uso de um segundo buffer, a solucao consistiria em salvar os caracteres do final da string, deslocar toda a string e inserir o caractere salvo no início da string.
+Feito isso, o buffer seria liberado e o processo se repetiria até que toda a string fosse invertida.

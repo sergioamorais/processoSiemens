@@ -1,0 +1,8 @@
+Enunciado
+
+8. Faça um programa que calcule o tamanho de um string informado pelo usuário (não usar nenhuma função para isso, tal como strlen() ou length());
+----------------------
+Resposta
+
+Geralmente utilizo funções para esse fim.
+Entretanto, como presumo que o questionario deve ser respondido sem consulta à internet, nao sei como resolver essa questao.

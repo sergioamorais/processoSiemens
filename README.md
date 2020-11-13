@@ -1,5 +1,6 @@
 # processoSiemens
 Programas para processo seletivo Siemens.
+Vaga: Engenheiro Eletricista com ênfase em Desenvolvimento de Software – Pleno (Curitiba / Remoto).
 
 Os exercicios propostos foram solucionados considerando que o processo nao permite a consulta a fontes externas de conhecimento, como a internet.
 Sendo assim, pseudo-codigos foram utilizados nas resolucoes. Ademais, quando necessário, apenas o raciocínio inicial para resolver um problema foi apresentado.

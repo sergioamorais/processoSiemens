@@ -7,11 +7,14 @@ Além disso, mostre um exemplo de uso desta função em um programa com a chamad
 --------------------------------------
 Resposta (pseudo-codigo):
 
+%Definicao da funcao, com os argumentos solicitados, sendo "vetor" uma string, "size" um inteiro correspondente às suas dimensões e "key" a chave a ser procurada 
 def pesquisa_linear (vetor, size, key):
 
+%Rotina que percorrerá o vetor para encontrar o indice que se refere a chave procurada
+%Considerei a iteracao sobre um vetor, mas imagino que possa exitir alguma funcao "index" que captura o indice correspondente a um dado valor
 k=0;
 
-while (k<size)
+while (k<=size)
   if (vetor(k)==key)
     y=k;
   
@@ -26,3 +29,5 @@ while (k<size)
 end
 
 return y
+
+%A funcao retorna o indice da chave a ser procurada ou "-1" caso essa nao seja encontrada.
